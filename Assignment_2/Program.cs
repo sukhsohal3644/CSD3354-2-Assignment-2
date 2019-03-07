@@ -39,6 +39,7 @@ namespace DelegatesAndEvents
             Console.ReadLine();
         }
 
+
         public void Method2()
         {
             MyDelegate myDelegate = new MyDelegate(Method1);
