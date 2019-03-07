@@ -20,11 +20,10 @@ namespace DelegateAndEvents
 {
     class program
     {
-        public static void Main()
+        static void Main(string[] args)
         {
-
-            DelegateExercises Deel = new DelegateExercises();
-            Deel.Method3();
+            DelegateExercises a = new DelegateExercises();
+            a.Method3();
             Console.ReadLine();
         }
     }
@@ -37,9 +36,8 @@ namespace DelegateAndEvents
         }
         public void Method3()
         {
-            MyDelegate myDelegate = new MyDelegate(Method1);
-            myDelegate();
-            System.Console.WriteLine(myDelegate.ToString());
+
+            System.Console.WriteLine(MyDelegate.ToString());
         }
     }
 }
