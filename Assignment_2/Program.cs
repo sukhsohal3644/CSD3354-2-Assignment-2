@@ -18,14 +18,21 @@ using System.Threading.Tasks;
 // March 7,2019
 
 
-
-
-
-namespace DelegateAndEvents
+namespace DelegatesAndEvents
 {
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DelegateExercises Deel = new DelegateExercises();
+            Deel.Method2();
+            Console.ReadLine();
+        }
+    }
     public class DelegateExercises
     {
         public delegate void MyDelegate();
+
         void Method1()
         {
             Console.WriteLine("Method1");
@@ -38,8 +45,8 @@ namespace DelegateAndEvents
             myDelegate();
         }
     }
-
 }
+
 
 
 
