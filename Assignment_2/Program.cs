@@ -18,30 +18,16 @@ using System.Threading.Tasks;
 // March 7,2019
 
 namespace DelegatesAndEvents
-{ 
-   class program
-
 {
-    static void Main(string[] args)
+    class program
     {
-        DelegateExercises Deel = new DelegateExercises();
-        Deel.Method3();
-        Console.ReadLine();
-    }
-}
+        static void Main(string[] args)
+        {
 
-public delegate void MyDelegate();
-public class DelegateExercises
-{
+        }
+    }
 
-    void Method1()
-    {
-        System.Console.WriteLine("Method1");
-    }
-    public void Method3()
-    {
-        MyDelegate myDelegate = new MyDelegate(Method1);
-        myDelegate();
-    }
-}
+    public delegate void MyDelegate();
+    public class DelegateExercises : MyDelegate
+    { }
 }
