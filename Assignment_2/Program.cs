@@ -17,28 +17,17 @@ using System.Threading.Tasks;
 // Assignment 2
 // March 7,2019
 
-
 namespace DelegatesAndEvents
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            DelegateExercises Deel = new DelegateExercises();
-            Deel.Method2();
-            Console.ReadLine();
-        }
-    }
     public class DelegateExercises
     {
         public delegate void MyDelegate();
 
-        void Method1()
+        void Method1(int i)
         {
             Console.WriteLine("Method1");
             Console.ReadLine();
         }
-
 
         public void Method2()
         {
@@ -47,11 +36,6 @@ namespace DelegatesAndEvents
         }
     }
 }
-
-
-
-
-
 
 
 
