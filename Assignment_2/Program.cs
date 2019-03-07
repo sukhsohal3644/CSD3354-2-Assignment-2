@@ -27,7 +27,6 @@ namespace DelegateAndEvents
     {
         public delegate void MyDelegate();
         void Method1()
-
         {
             Console.WriteLine("Method1");
             Console.ReadLine();
