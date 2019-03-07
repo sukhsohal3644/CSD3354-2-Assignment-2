@@ -4,6 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+// Student Name = Sukhdeep Sohal     Student ID = C0731586
+// CSD3354 Section 2
+// Assignment 2
+// March 7,2019
+
+
+
+// Student Name = Manjot Singh       Student ID = C0730244
+// CSD3354 Section 2
+// Assignment 2
+// March 7,2019
+
+
+
+
+
 namespace DelegateAndEvents
 {
     public class DelegateExercises
@@ -26,58 +43,20 @@ namespace DelegateAndEvents
 
 }
 
-    // LAB 2
-
-class Program
-{
-    static void Main(string[] args)
-    {
-
-    }
-     {
-        public class DelegateExercises
-    {
-        public delegate void MyDelegate();
-        void Method1()
-        {
-            Console.WriteLine("Method1");
-            Console.ReadLine();
-        }
-        public void Method2()
-        {
-            MyDelegate myDelegate = new MyDelegate(Method1);
-            myDelegate(50);
-            
-        }
-    }
-}
+// Student Name = Sukhdeep Sohal     Student ID = C0731586
+// CSD3354 Section 2
+// Assignment 2
+// March 7,2019
 
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        // TO DO: Call Method2 from the DelegateExercises Class
-    }
-}
+
+// Student Name = Manjot Singh       Student ID = C0730244
+// CSD3354 Section 2
+// Assignment 2
+// March 7,2019
 
 
-// LAB 3
 
-public class DelegateExercises
-{
-    public delegate void MyDelegate();
-    void Method1(int i)
-    {
-        Console.WriteLine("Method1");
-        Console.ReadLine();
-    }
-    public void Method2()
-    {
-        MyDelegate myDelegate = new MyDelegate(Method1);
-        myDelegate();
-    }
-}
 
 
 
